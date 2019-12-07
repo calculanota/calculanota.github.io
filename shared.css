@@ -117,7 +117,7 @@ select {
 
 .post {
     padding: 30px;
-    outline: 2px solid white;
+    outline: 2px solid rgb(100, 100, 100);
     outline-offset: -10px;
 }
 
