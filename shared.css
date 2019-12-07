@@ -23,12 +23,6 @@ body {
     text-align: center;
 }
 
-.border {
-    margin-bottom: 30px;
-    border: 5px solid green;
-    padding: 20px;
-}
-
 footer {
     margin: auto;
     width: 50%;
@@ -63,7 +57,7 @@ footer {
 input {
     width: 70px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 select {
@@ -108,7 +102,9 @@ select {
 .main_container {
     font-size: 120%;
     line-height: 1.5;
-    border: 5px solid rgba(40, 40, 40);
+    border: 6px solid rgba(150, 150, 150);
+    background-color: #1C1C1C;
+    color: #FAFAFA;
 }
 
 .content {
@@ -117,7 +113,7 @@ select {
 
 .post {
     padding: 30px;
-    outline: 2px solid rgb(100, 100, 100);
+    outline: 3px solid rgb(200, 200, 200);
     outline-offset: -10px;
 }
 
@@ -126,7 +122,11 @@ select {
     font-weight: bold;
     font-size: 140%;
     padding: 10px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+
+.explanation {
+    border-top: 2px solid rgb(170, 170, 170);
 }
 
 .post_body {
