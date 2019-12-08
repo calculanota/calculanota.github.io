@@ -16,9 +16,9 @@
         <title>Calcula Nota</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="shared.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="pf.css" />
         <script src="shared.js"></script>
-        <script src="index.js"></script>
+        <script src="pf.js"></script>
     </head>
 
     <body>
@@ -28,50 +28,33 @@
 
                 <div class="pre_content center">
                     <div class="redirect_button">
-                        <a href="pf.html">Prova Final</a>
+                        <a href="index.html">Média Final</a>
                     </div>
                 </div>
 
                 <div class="content">
                     <div class="post">
                         <div class="post_title">
-                            Calcular Média Final
+                            Calcular Nota Prova Final
                         </div>
                         <div class="post_body">
                             <table class="center input_section main_div">
-                                <tr>
-                                    <td>Nota da P1:</td>
-                                    <td>
-                                        <input type="number" class="roundedinput interactionbox" id="input_p1">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Nota da P2:</td>
-                                    <td>
-                                        <input type="number" class="roundedinput interactionbox" id="input_p2">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Nota da P3:</td>
-                                    <td>
-                                        <input type="number" class="roundedinput interactionbox" id="input_p3">
-                                    </td>
-                                </tr>
                                 <tr>
                                     <td>Média Final:</td>
                                     <td>
                                         <input type="number" class="roundedinput interactionbox" id="input_mf">
                                     </td>
                                 </tr>
-                            </table>
-                            <table class="center input_section main_div">
                                 <tr>
-                                    <td>Pesos:</td>
+                                    <td>Nota da P.F.:</td>
                                     <td>
-                                        <select class="roundedinput interactionbox" id="select_pesos">
-                                            <option value="5 5 1 11">Atual (5 5 1 11)</option>
-                                            <option value="4 4 2 10">Antigo (4 4 2 10)</option>
-                                        </select>
+                                        <input type="number" class="roundedinput interactionbox" id="input_pf">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nota Final:</td>
+                                    <td>
+                                        <input type="number" class="roundedinput interactionbox" id="input_nf">
                                     </td>
                                 </tr>
                             </table>
@@ -79,8 +62,8 @@
                         </div>
                         <div class="post_body width_70 center explanation">
                             <h4>Como funciona?</h4>
-                            <p>Você pode calcular sua média final a partir das notas parciais (<b>P1</b>, <b>P2</b> e <b>P3</b>).</p>
-                            <p>Além disso, como um exemplo, pode-se preencher apenas a <b>P1</b>, a <b>P3</b> e a <b>média final</b> (7.0), deixando a <b>P2</b> em branco, e o site calculará qual deve ser sua nota na <b>P2</b> para alcançar tal <b>média final</b>.</p>
+                            <p>Você pode calcular sua nota final a partir das notas parciais (<b>Média Final</b> e <b>Nota da P.F.</b>).</p>
+                            <p>Além disso, como um exemplo, pode-se preencher apenas a <b>Média Final</b> e a <b>Nota Final</b> (5.0), deixando a <b>Nota da P.F.</b> em branco, e o site calculará qual deve ser sua nota na <b>P.F.</b> para alcançar tal <b>Nota Final</b>.</p>
                         </div>
                     </div>
                 </div>
